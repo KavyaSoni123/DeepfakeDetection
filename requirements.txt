@@ -21,3 +21,4 @@ imageio
 imageio[ffmpeg]
 tensorflow
 os
+ipykernal

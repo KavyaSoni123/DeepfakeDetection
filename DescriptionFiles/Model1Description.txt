@@ -1,0 +1,2 @@
+In this file I have used ResNext50 with one LSTM layer
+LSTM is used to learn sequential data from videos
