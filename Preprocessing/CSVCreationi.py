@@ -2,16 +2,6 @@ import os
 import csv
 
 def get_video_data(folder_path, tag):
-    """
-    Get video data from a folder and assign a tag.
-    
-    Args:
-        folder_path (str): Path to the folder containing videos.
-        tag (str): Tag to assign to the videos (e.g., 'real' or 'fake').
-    
-    Returns:
-        list: List of tuples containing video index, video path, and tag.
-    """
     video_data = []
     for idx, video_name in enumerate(os.listdir(folder_path)):
         video_path = os.path.join(folder_path, video_name)
@@ -20,13 +10,6 @@ def get_video_data(folder_path, tag):
     return video_data
 
 def create_csv_file(output_csv, data):
-    """
-    Create a CSV file with the given data.
-    
-    Args:
-        output_csv (str): Path to the output CSV file.
-        data (list): List of tuples containing video data.
-    """
     with open(output_csv, mode='w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
         writer.writerow(['Index', 'Video Name', 'Tag']) 

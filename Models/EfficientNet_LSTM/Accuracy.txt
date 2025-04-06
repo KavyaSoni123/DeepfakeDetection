@@ -1,0 +1,3 @@
+EfficientNetB0_LSTM --> 0.7458 Accuracy
+EfficientNetB0_LSTM_Modified--> Added Dropout, trainable model and feedback layer-->0.8305 Accuracy
+EfficientNetB0_LSTM_Final --> Added Augmentation with 20 unfreezed layers --> 0.9492 Accuracy
