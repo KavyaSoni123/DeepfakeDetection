@@ -1,0 +1,244 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+}
+.first-look {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.first-look .right {
+    padding-left: 15rem;
+}
+
+#logo {
+    padding-left: 1rem;
+    font-size: 2rem;
+    padding: 1rem 0px 1rem 2rem;
+    font-weight: 600;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid black 1px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2rem;
+    padding-right: 3rem;
+}
+
+#navbar, li {
+    list-style: none;
+    margin: 1rem;
+    font-weight: 600;
+}
+
+#navbar a {
+    width: 8rem;
+    border-radius: 1rem;
+    background-color: white;
+    font-weight: 600;
+}
+
+li:hover {
+    color: rgb(245, 66, 111);
+
+}
+#navbar button {
+    border-radius: rem;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0px 6px 0px 6px;
+    width: 10rem;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#navbar button:hover {
+    background-color: rgb(245, 66, 111);
+    color: white;
+}
+
+.content {
+    width: 88%;
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+a:hover {
+    color: rgb(245, 66, 111);;
+}
+#big-content h1 {
+    font-size: 40px;
+    font-weight:bold;
+}
+
+#deepfake {
+    color: rgb(245, 66, 111);
+    font-weight: bold;
+}
+
+#med-content {
+    margin-top: 3rem;
+    line-height: 2.5rem;
+    font-size: 20px;
+}
+.light {
+    font-weight: 400;
+}
+.highlighted {
+    font-weight: bold;
+}
+
+#scanner-button button {
+    background-color: rgb(245, 66, 111);
+    border: none;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-top: 3rem;
+    color: white;
+    font-weight: 700;
+    height: 4rem;
+}
+
+#scanner-button button:hover {
+    background-color: black;
+}
+.second-look {
+    display: flex;
+    padding-bottom: 3rem;
+    margin-top: 7rem;
+    align-items: center;
+}
+.second-look .left {
+    width: 50%;
+    height: 30rem;
+}
+
+.second-look .right {
+    margin-top: 6rem;
+    width: 50%;
+    height: 30rem;
+}
+
+.second-look .right h1 {
+    margin: 2rem;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.second-look .right p {
+    margin: 2rem;
+    line-height: 2rem;
+    font-size: 20px;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(56,52,52);
+    height: 18rem;
+    display: flex;
+}
+
+footer #logo-name {
+    padding: 3rem;
+    font-size: 2.75rem;
+    color: grey;
+    font-weight: 700;
+}
+
+footer .company-list {
+    margin-left: 7rem;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.company-list h5 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.company-list ul {
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.main-div {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5.5rem;
+    margin-bottom: 5.5rem;
+    height: 15rem;
+    text-align: center;
+    padding-top: 5rem;
+    line-height: 2.75rem;
+}
+.main-div h1 {
+    font-weight: 500;
+}
+.text input {
+    border-radius: 2rem;
+    width: 70%;
+    height: 1.75rem;
+    padding: 10px;
+}
+.terms {
+    display: flex;
+    padding-left: 10rem;
+    font-size: 12px;
+}
+
+.terms input {
+    margin-right: 1rem;
+}
+
+.main-div button {
+    width: 10rem;
+    height: 2.75rem;
+    
+    background: linear-gradient(to right, #00c6ff, #6366f1); /* Gradient */
+    border: none;
+    border-radius: 10px;
+    padding: 15px 40px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.main-div button:hover {
+    background: linear-gradient(to left, #00c6ff, #6366f1); /* Inverse Gradient */
+            border: none;
+            border-radius: 10px;
+            padding: 15px 40px;
+            font-size: 18px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            position: relative;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            text-transform: uppercase;
+            transition:background 1s ease-in-out;
+}
